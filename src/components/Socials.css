@@ -1,0 +1,11 @@
+.col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 16px 8px 16px 40px;
+    gap: 24px;
+}
+
+.socials-link {
+    color: var(--color-icon);
+}
