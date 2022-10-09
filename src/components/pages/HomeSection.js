@@ -1,7 +1,7 @@
 import React from "react";
 import './HomeSection.css';
 
-import Socials from './Socials';
+import Socials from '../widgets/Socials';
 
 function HomeSection(props) {
     return (<section>

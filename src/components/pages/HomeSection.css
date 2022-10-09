@@ -76,7 +76,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(0deg, rgba(27, 181, 158, 0.25), rgba(27, 181, 158, 0.25)), url(../asset/home_img.jpg);
+    background: linear-gradient(0deg, rgba(27, 181, 158, 0.25), rgba(27, 181, 158, 0.25)), url(../../asset/home_img.jpg);
     background-position: center;
     background-size: 100%;
 }

@@ -1,10 +1,9 @@
 import React from "react";
 import './AboutSection.css';
-import about_img from '../asset/about_img.JPG';
 
-import SectionTitle from "./SectionTitle";
-import SubSectionTitle from "./SubSectionTitle";
-import Pill from "./Pill";
+import SectionTitle from "../widgets/SectionTitle";
+import SubSectionTitle from "../widgets/SubSectionTitle";
+import Pill from "../widgets/Pill";
 
 function AboutSection(props) {
     return (<section>

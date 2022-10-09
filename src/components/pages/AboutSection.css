@@ -29,7 +29,7 @@
     background-size: 100% auto;
     width: 292px;
     height: 440px;
-    background: linear-gradient(0deg, rgba(27, 181, 158, 0.25), rgba(27, 181, 158, 0.25)), url(../asset/about_img.JPG);
+    background: linear-gradient(0deg, rgba(27, 181, 158, 0.25), rgba(27, 181, 158, 0.25)), url(../../asset/about_img.JPG);
     background-position: center;
     background-size: 100%;
 }

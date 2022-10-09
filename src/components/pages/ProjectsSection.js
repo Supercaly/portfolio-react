@@ -1,8 +1,8 @@
 import React from "react";
-import ListItem from "./ListItem";
-import SectionTitle from "./SectionTitle";
 import './ProjectsSection.css';
-import Card from "./Card";
+
+import SectionTitle from "../widgets/SectionTitle";
+import Card from "../widgets/Card";
 
 function ProjectsSection(props) {
     return (<section>
