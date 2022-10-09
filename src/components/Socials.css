@@ -1,9 +1,16 @@
-.col {
+.socials-list {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
-    padding: 16px 8px 16px 40px;
+    flex-direction: row;
+    padding: 0px;
     gap: 24px;
+}
+
+@media only screen and (min-width: 600px) {
+    .socials-list {
+        flex-direction: column;
+        padding: 16px 8px 16px 40px;
+    }
 }
 
 .socials-link {

@@ -1,0 +1,15 @@
+.badge-div {
+    display: inline-block;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    padding: 8px 16px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.badge-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    color: var(--color-text);
+}

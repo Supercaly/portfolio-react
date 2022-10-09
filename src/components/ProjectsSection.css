@@ -1,0 +1,14 @@
+.projects-section-lists {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+@media only screen and (max-width:600px) {
+    .projects-section-lists {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}

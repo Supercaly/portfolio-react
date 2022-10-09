@@ -6,6 +6,10 @@
     --color-text-variant: #7D9F9A;
     --color-text-secondary: #B7B7B7;
     --color-icon: #B7B7B7;
+    --color-icon-50perc: rgba(183, 183, 183, 0.5);
+
+    /* phone variable */
+    --phone-hz-padding: 16px;
 }
 
 html {
@@ -17,4 +21,11 @@ html {
     letter-spacing: 0.03em;
 
     background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
