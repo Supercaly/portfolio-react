@@ -1,19 +1,22 @@
-.pill-div {
+.box {
     padding: 5px 15px;
     border: 1px solid var(--color-icon-50perc);
     border-radius: 40px;
 }
 
-.pill-text {
+.box:hover {
+    border: 1px solid var(--color-icon);
+}
+
+.text {
     margin: 0px;
     font-size: 15px;
     font-weight: 300;
     color: var(--color-text-secondary);
 }
 
-
 @media only screen and (max-width: 600px) {
-    .pill-text {
+    .text {
         font-size: 13px;
     }
 }

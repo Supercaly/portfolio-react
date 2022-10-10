@@ -1,13 +1,13 @@
 import React from "react";
 import './ProjectsSection.css';
 
-import SectionTitle from "../widgets/SectionTitle";
+import TitleBar from "../widgets/TitleBar";
 import Card from "../widgets/Card";
 
 function ProjectsSection(props) {
     return (<section className="projects-section">
         <div>
-            <SectionTitle number='5' title="My Projects" />
+            <TitleBar number='5' title="My Projects" />
             <div className="projects-section-lists">
                 <Card date={['27/09/2022', '12/2022']} title='Test title' />
                 <Card date={['27/09/2022']} title='Test title' />

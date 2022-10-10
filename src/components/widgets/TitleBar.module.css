@@ -1,0 +1,42 @@
+.outerDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.line {
+    border-bottom: 1px solid var(--color-icon);
+}
+
+.linePre {
+    width: 45px;
+}
+
+.linePost {
+    width: 100%;
+}
+
+.number {
+    color: var(--color-secondary);
+}
+
+.title {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0px;
+    color: var(--color-text);
+}
+
+@media only screen and (max-width: 600px) {
+    .linePre {
+        display: none;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}

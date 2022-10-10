@@ -1,9 +1,9 @@
 import React from "react";
-import './Badge.css';
+import styles from './Badge.module.css';
 
 function Badge(props) {
-    return (<div className="badge-div">
-        <h6 className="badge-text">{props.text}</h6>
+    return (<div className={styles.box}>
+        <h6 className={styles.text}>{props.text}</h6>
     </div>);
 }
 

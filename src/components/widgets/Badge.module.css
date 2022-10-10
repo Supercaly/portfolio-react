@@ -1,4 +1,4 @@
-.badge-div {
+.box {
     display: inline-block;
     background-color: var(--color-primary);
     border-radius: 40px;
@@ -7,9 +7,15 @@
     width: fit-content;
 }
 
-.badge-text {
+.text {
     font-size: 15px;
     font-weight: 500;
     margin: 0px;
     color: var(--color-text);
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 13px;
+    }
 }
