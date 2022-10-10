@@ -1,0 +1,35 @@
+.cv-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--color-primary-dark);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.cv-section-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: var(--color-secondary);
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+@media only screen and (max-width: 600px) {
+    .cv-section-content {
+        padding: 16px;
+        align-items: flex-end;
+    }
+    
+    .cv-section-text {
+        font-size: 14px;
+    }
+}

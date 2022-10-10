@@ -12,3 +12,9 @@
         gap: 24px;
     }
 }
+
+@media only screen and (min-width:600px) {
+    .projects-section {
+        padding: 0px 80px;
+    }
+}

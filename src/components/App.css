@@ -1,3 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
 
+section {
+    padding: 0px 160px;
+}
 
+@media only screen and (max-width:600px) {
+    main {
+        gap: 24px;
+    }
 
+    section {
+        padding: 16px;
+    }
+}

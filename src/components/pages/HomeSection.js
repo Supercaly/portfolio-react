@@ -4,7 +4,7 @@ import './HomeSection.css';
 import Socials from '../widgets/Socials';
 
 function HomeSection(props) {
-    return (<section>
+    return (<section className="home-section">
         <div className='home-section-div'>
             <div className='home-section-content'>
                 <div className="home-section-texts">

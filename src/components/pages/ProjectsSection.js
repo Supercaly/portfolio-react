@@ -5,7 +5,7 @@ import SectionTitle from "../widgets/SectionTitle";
 import Card from "../widgets/Card";
 
 function ProjectsSection(props) {
-    return (<section>
+    return (<section className="projects-section">
         <div>
             <SectionTitle number='5' title="My Projects" />
             <div className="projects-section-lists">
