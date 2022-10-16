@@ -1,20 +1,36 @@
 import React from "react";
-import './Card.css';
+import styles from './Card.module.css';
+import Icon from "./Icon";
 
 function Card(props) {
+    const htmlLinks = props.links?.map(link => {
+        return <Icon link={link.link} icon={link.icon} />
+    });
+    const htmlTags = props.tags.map(tag => {
+        return (<h6 className={styles.tag}>{tag}</h6>)
+    });
+
+    let htmlDesc;
+    if (props.description !== undefined) {
+        htmlDesc = <p className={styles.description}>{props.description}</p>;
+    }
+    let htmlBottom;
+    if (htmlLinks.length > 0 || htmlTags.length > 0) {
+        htmlBottom = <div className={styles.bottom}>
+            {htmlLinks}
+            {htmlTags}
+        </div>;
+    }
+
     return (
-        <div className="card-div-outer">
-            <div className="card-div">
-                <div className="card-image-div"></div>
-                <div className="card-content">
-                    <h4 className="card-title">Title</h4>
-                    <p className="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque leo habitant feugiat mollis pretium vel et in.</p>
-                    <div className="card-icons">
-                        <p className="card-icons-item">item1</p>
-                        <p className="card-icons-item">item2</p>
-                        <p className="card-icons-item">item3</p>
-                    </div>
-                </div>
+        <div className={styles.container}>
+            <div className={styles.imageDiv}>
+                <img className={styles.image} src="https://source.unsplash.com/random/500x500h" alt='' />
+            </div>
+            <div className={styles.content}>
+                <h4 className={styles.title}>{props.title}</h4>
+                {htmlDesc}
+                {htmlBottom}
             </div>
         </div>);
 }

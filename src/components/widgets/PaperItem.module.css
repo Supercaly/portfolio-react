@@ -1,48 +1,64 @@
-.list-item-div {
+.container {
     display: flex;
     flex-direction: row;
     gap: 48px;
     padding: 20px 30px;
     background-color: var(--color-primary-dark);
+    border: 2px solid var(--color-primary);
     border-radius: 8px;
 }
 
-.list-item-text {
+.container:hover {
+    border: 2px solid var(--color-secondary);
+}
+
+.content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.list-item-title {
+.title {
     font-size: 25px;
     margin: 0px;
     font-weight: 500;
     color: var(--color-text);
 }
 
-.list-item-description, .list-item-location {
+.description {
     font-size: 18px;
     font-weight: 300;
     margin: 0px;
     color: var(--color-text-secondary);
 }
 
-.list-item-location {
-    padding-inline-start: 20px;
+.mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: var(--color-text);
 }
 
-
 @media only screen and (max-width: 600px) {
-    .list-item-div {
+    .container {
         flex-direction: column;
         gap: 20px;
+        padding: 16px;
     }
 
-    .list-item-title {
+    .title {
         font-size: 22px;
     }
 
-    .list-item-description, .list-item-location {
+    .description {
         font-size: 16px;
+    }
+
+    .mark {
+        display: none;
     }
 }

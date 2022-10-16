@@ -1,0 +1,62 @@
+.ripple {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-icon);
+}
+
+.icon {
+    position: relative;
+}
+
+.icon::before {
+    content: "";
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.icon:hover::before {
+    display: block;
+}
+
+.ripple::after {
+    content: "";
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.ripple:focus:active::after {
+    display: block;
+    animation: ripple 0.6s;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

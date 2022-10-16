@@ -1,35 +1,23 @@
 import React from "react";
 import Badge from "./Badge";
-import './ListItem.css';
+import styles from './ListItem.module.css';
 
 function ListItem(props) {
-    let listDescription;
     let listLocation;
-    if (props.description) {
-        listDescription = <p className="list-item-description">props.description</p>;
-    }
     if (props.location) {
-        listLocation = <ul className="list-item-location">
+        listLocation = <ul className={styles.location}>
             <li>{props.location}</li>
         </ul>;
     }
 
-    return (<div className="list-item-div">
-        <Badge text={formatDate(props.date)} />
-        <div className="list-item-text">
-            <h4 className="list-item-title">{props.title}</h4>
-            {listDescription}
+    return (<div className={styles.container}>
+        <Badge text={props.date} />
+        <div className={styles.content}>
+            <h4 className={styles.title}>{props.title}</h4>
+            <h6 className={styles.description}>{props.description}</h6>
             {listLocation}
         </div>
     </div>);
 }
-
-function formatDate(dates) {
-    if(Object.prototype.toString.call(dates) === '[object Array]') {
-        return dates.join(' - ');
-    }
-    return dates;
-}
-
 
 export default ListItem;

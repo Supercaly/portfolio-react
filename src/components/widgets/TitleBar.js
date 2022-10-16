@@ -2,12 +2,6 @@ import React from "react";
 import styles from './TitleBar.module.css';
 
 function TitleBar(props) {
-    const title = {
-        title: 'test',
-        content: [
-
-        ]
-    }
     return (
         <div className={styles.outerDiv}>
             <div className={[styles.line, styles.linePre].join(' ')}></div>
@@ -18,6 +12,8 @@ function TitleBar(props) {
 }
 
 function format_number(number) {
+    if (number == undefined)
+        number = '0';
     return String(number).padStart(2, '0') + '.';
 }
 

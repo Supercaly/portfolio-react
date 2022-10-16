@@ -1,38 +1,53 @@
 import React from "react";
 import styles from './Socials.module.css';
-import FeatherIcon from 'feather-icons-react';
+import Icon from "./Icon";
 
 function Socials(props) {
-    let phone;
-    let mail;
+    const links = [
+        {
+            link: '#',
+            icon: 'facebook'
+        },
+        {
+            link: '#',
+            icon: 'instagram'
+        },
+        {
+            link: '#',
+            icon: 'twitter'
+        }, {
+
+            link: '#',
+            icon: 'linkedin'
+        },
+        {
+            link: '#',
+            icon: 'github'
+        },
+    ]
+
     if (!props.short) {
-        phone = <a href="." className={styles.link}>
-            <FeatherIcon icon='phone' />
-        </a>;
-        mail = <a href="." className={styles.link}>
-            <FeatherIcon icon='mail' />
-        </a>;
+        links.push({
+            link: '#',
+            icon: 'phone'
+        });
+        links.push({
+            link: '#',
+            icon: 'mail'
+        });
     }
+    
+    const htmlLinks = links.map(link => {
+        return (
+            <Icon icon={link.icon} link={link.link} />
+        );
+    });
 
     return (
-        <div className={props.orientation === 'horizontal' ? styles.contentHorizontal : styles.content}>
-            <a href="." className={styles.link}>
-                <FeatherIcon icon='facebook' />
-            </a>
-            <a href="." className={styles.link}>
-                <FeatherIcon icon='instagram' />
-            </a>
-            <a href="." className={styles.link}>
-                <FeatherIcon icon='twitter' />
-            </a>
-            <a href="." className={styles.link}>
-                <FeatherIcon icon='linkedin' />
-            </a>
-            <a href="." className={styles.link}>
-                <FeatherIcon icon='github' />
-            </a>
-            {phone}
-            {mail}
+        <div className={[styles.content, props.orientation === 'horizontal'
+            ? styles.horizontal
+            : styles.vertical].join(' ')}>
+            {htmlLinks}
         </div>
     );
 
