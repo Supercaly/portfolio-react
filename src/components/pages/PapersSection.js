@@ -1,18 +1,21 @@
 import React from "react";
-import './PapersSection.css';
-
-import ListItem from "../widgets/ListItem";
+import styles from './PapersSection.module.css';
+import PaperItem from "../widgets/PaperItem";
 import TitleBar from "../widgets/TitleBar";
 
 function PapersSection(props) {
     return (<section>
         <div>
             <TitleBar number='4' title="Publications" />
-            <div className="papers-section-lists">
-                <ListItem date={['27/09/2022', '12/2022']} title='Test title' />
-                <ListItem date={['27/09/2022']} title='Test title' />
-                <ListItem date={'27/09/2022'} title='Test title' />
-                <ListItem />
+            <div className={styles.list}>
+                <PaperItem title='Test title'
+                    authors={['io', 'lui', 'l']}
+                    journal='li'
+                    doi='123'
+                    tags={[1, 2, 3, 4]} />
+                <PaperItem title='Test title' />
+                <PaperItem title='Test title' />
+                <PaperItem />
             </div>
         </div>
     </section>);

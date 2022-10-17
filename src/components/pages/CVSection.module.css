@@ -1,4 +1,4 @@
-.cv-section-content {
+.content {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -7,29 +7,48 @@
     padding: 24px;
 }
 
-.cv-section-text {
+.text {
     font-size: 16px;
     font-weight: 500;
     color: var(--color-text);
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #22b29c radial-gradient(circle, transparent 1%, #33bea9 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #1BB59E;
+    background-size: 100%;
+    transition: background 0s;
 }
 
 button {
     width: fit-content;
     height: fit-content;
     padding: 16px 24px;
+    border: none;
     border-radius: 8px;
     background-color: var(--color-secondary);
     font-size: 14px;
     color: var(--color-text);
+    cursor: pointer;
+    box-shadow: 0 0 2px #999;
+    outline: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .cv-section-content {
+    .content {
         padding: 16px;
         align-items: flex-end;
     }
-    
-    .cv-section-text {
+
+    .text {
         font-size: 14px;
     }
 }

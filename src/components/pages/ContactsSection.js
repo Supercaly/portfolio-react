@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './ContactsSection.module.css';
-
 import TitleBar from "../widgets/TitleBar";
 import Title from "../widgets/Title";
 import Socials from "../widgets/Socials";
