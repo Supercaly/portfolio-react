@@ -32,12 +32,20 @@
     color: var(--color-text-secondary);
 }
 
+.description2 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+    color: var(--color-text-secondary);
+}
+
 .mark {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 68px;
-    height: 68px;
+    width: fit-content;
+    height: fit-content;
+    padding: 22px;
     border-radius: 50%;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -56,6 +64,10 @@
 
     .description {
         font-size: 16px;
+    }
+
+    .description2 {
+        font-size: 12px;
     }
 
     .mark {

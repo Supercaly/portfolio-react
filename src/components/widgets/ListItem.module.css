@@ -25,11 +25,20 @@
     color: var(--color-text);
 }
 
+.subtitle {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 300;
+    color: var(--color-text);
+}
+
 .description,
 .location {
     font-size: 18px;
     font-weight: 300;
     margin: 0px;
+    word-break: break-all;
+    white-space: pre-line;
     color: var(--color-text-secondary);
 }
 
@@ -46,6 +55,10 @@
 
     .title {
         font-size: 22px;
+    }
+    
+    .title {
+        font-size: 18px;
     }
 
     .description,

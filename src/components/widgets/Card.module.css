@@ -8,7 +8,11 @@
 
 .imageDiv {
     width: 50%;
-    height: auto;
+    max-height: 350px;
+}
+
+.hideImage {
+    display: none;
 }
 
 .image {
