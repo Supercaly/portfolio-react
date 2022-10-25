@@ -12,7 +12,7 @@ function TitleBar(props) {
 }
 
 function format_number(number) {
-    if (number == undefined)
+    if (number === undefined)
         number = '0';
     return String(number).padStart(2, '0') + '.';
 }
