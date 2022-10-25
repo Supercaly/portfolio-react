@@ -4,6 +4,11 @@
     gap: 0px;
     background-color: var(--color-primary-dark);
     border-radius: 10px;
+    border: 2px solid var(--color-primary);
+}
+
+.container:hover {
+    border: 2px solid var(--color-secondary);
 }
 
 .imageDiv {
