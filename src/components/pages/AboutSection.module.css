@@ -1,0 +1,122 @@
+.outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--color-text);
+    line-height: 24px;
+    white-space: pre-line;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.pills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    row-gap: 16px;
+}
+
+.avatarOut {
+    width: fit-content;
+    margin: auto auto;
+}
+
+.avatarIn {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px;
+}
+
+.avatarIn::after {
+    content: '';
+    position: absolute;
+    border: 30px solid var(--color-secondary);
+    width: 200vw;
+    height: 480px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.avatar {
+    width: auto;
+    height: 440px;
+    border: 10px solid var(--color-text);
+}
+
+.topAvatar {
+    display: none;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1300px) {
+    .avatar {
+        height: 350px;
+    }
+
+    .avatarIn::after {
+        height: 390px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding: 0px 60px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .outer {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .leftAvatar {
+        display: none;
+    }
+
+    .topAvatar {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        padding: 0px 16px;
+    }
+
+    .avatar {
+        height: 220px;
+    }
+
+    .avatarIn::after {
+        height: 280px;
+        border: 20px solid var(--color-secondary);
+    }
+
+    .description {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,131 @@
+.section {
+    padding: 0px;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text {
+    display: inline;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.greet {
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0px;
+    color: var(--color-secondary);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 70px;
+    margin: 0px;
+    line-height: 1;
+    margin-top: 5px;
+    color: var(--color-text-variant);
+}
+
+.boldText {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0px;
+    margin-top: 20px;
+    color: var(--color-text);
+}
+
+.second {
+    display: none;
+}
+
+.avatarOut {
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.avatarIn {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 60px;
+}
+
+.avatarIn::after {
+    content: '';
+    position: absolute;
+    border: 30px solid var(--color-secondary);
+    border-radius: 300px;
+    width: 200vw;
+    height: 380px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid var(--color-text);
+}
+
+@media only screen and (max-width: 1200px) {
+    .avatarIn {
+        padding: 40px;
+    }
+
+    .avatarIn::after {
+        border: 20px solid var(--color-secondary);
+        height: 280px;
+    }
+
+    .avatar {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .second {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        padding: 0px 16px;
+    }
+    .greet {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+}
