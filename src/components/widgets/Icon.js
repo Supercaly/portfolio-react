@@ -5,7 +5,7 @@ import FeatherIcon from 'feather-icons-react';
 function Icon(props) {
     return (
         <div className={styles.icon}>
-            <a className={styles.ripple} href={props.link}>
+            <a className={styles.ripple} href={props.link} target="_blank" rel="noreferrer">
                 <FeatherIcon icon={props.icon} />
             </a>
         </div>);
