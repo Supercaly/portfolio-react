@@ -3,38 +3,10 @@ import styles from './Socials.module.css';
 import Icon from "./Icon";
 
 function Socials(props) {
-    const links = [
-        {
-            link: '#',
-            icon: 'facebook'
-        },
-        {
-            link: '#',
-            icon: 'instagram'
-        },
-        {
-            link: '#',
-            icon: 'twitter'
-        }, {
-
-            link: '#',
-            icon: 'linkedin'
-        },
-        {
-            link: '#',
-            icon: 'github'
-        },
-    ]
-
+    let links = props.social.short;
+    
     if (!props.short) {
-        links.push({
-            link: '#',
-            icon: 'phone'
-        });
-        links.push({
-            link: '#',
-            icon: 'mail'
-        });
+        links = links.concat(props.social.extra);
     }
     
     const htmlLinks = links.map(link => {

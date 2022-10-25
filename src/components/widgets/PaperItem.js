@@ -3,15 +3,15 @@ import styles from './PaperItem.module.css';
 import FeatherIcon from 'feather-icons-react';
 
 function PaperItem(props) {
-    return (<div className={styles.container}>
+    return (<div className={styles.container} onClick={props.onClick}>
         <Mark />
         <div className={styles.content}>
             <h4 className={styles.title}>{props.title}</h4>
             <h6 className={styles.description}>{formatList(props.authors, ', ')}</h6>
-            <h6 className={styles.description}>{props.journal}</h6>
-            <h6 className={styles.description}>{props.doi}</h6>
-            <h6 className={styles.description}>{props.date}</h6>
-            <h6 className={styles.description}>{formatList(props.tags, ', ')}</h6>
+            <h6 className={styles.description2}>{props.journal}</h6>
+            <h6 className={styles.description2}>{props.doi}</h6>
+            <h6 className={styles.description2}>{props.date}</h6>
+            <h6 className={styles.description2}>{formatList(props.tags, ', ')}</h6>
         </div>
     </div>);
 }

@@ -14,6 +14,7 @@ function ListItem(props) {
         <Badge text={props.date} />
         <div className={styles.content}>
             <h4 className={styles.title}>{props.title}</h4>
+            <h4 className={styles.subtitle}>{props.subtitle}</h4>
             <h6 className={styles.description}>{props.description}</h6>
             {listLocation}
         </div>

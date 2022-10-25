@@ -1,0 +1,287 @@
+{
+    "social": {
+        "short": [
+            {
+                "link": "https://www.facebook.com/l.calisti/",
+                "icon": "facebook"
+            },
+            {
+                "link": "https://www.instagram.com/lorenzo_calisti/",
+                "icon": "instagram"
+            },
+            {
+                "link": "https://twitter.com/lorenzocalisti",
+                "icon": "twitter"
+            },
+            {
+                "link": "https://www.linkedin.com/in/lorenzo-calisti96/",
+                "icon": "linkedin"
+            },
+            {
+                "link": "https://github.com/Supercaly/",
+                "icon": "github"
+            }
+        ],
+        "extra": [
+            {
+                "link": "tel: +393319018150",
+                "icon": "phone"
+            },
+            {
+                "link": "mailto:l.calisti96@gmail.com",
+                "icon": "mail"
+            }
+        ]
+    },
+    "skills": {
+        "programming": [
+            "C/C++",
+            "Python",
+            "Go (Golang)",
+            "Haskell",
+            "Erlang",
+            "Matlab",
+            "IOS Development (Swift)",
+            "Web Development (HTML, CSS, JavaScript)",
+            "React",
+            "Flutter (Dart)",
+            "Android Development (Kotlin, Java)",
+            "NodeJS",
+            "Internet of Things (IoT)",
+            "Machine Learning",
+            "SQL/NoSQL",
+            "LaTex"
+        ],
+        "os": [
+            "Linux",
+            "MacOs",
+            "Windows",
+            "Android",
+            "IOS",
+            "Embedded Devices"
+        ],
+        "art": [
+            "Photoshop",
+            "Illustrator",
+            "Inkspace",
+            "Figma"
+        ]
+    },
+    "about_me": "Hello, my name is Lorenzo and I’m a Developer and Computer Science student based in Monte Cerignone (PU), a little town in the center of Italy.\n\nI’ve got a master's degree in Applied Computer Science from University of Urbino “Carlo Bo”.\n\nWhen I’m not working on some project I’m probably watching a TV series, an anime or I’m riding my MTB bike.",
+    "work": [
+        {
+            "date": [
+                "2020",
+                "2021"
+            ],
+            "title": "University scholarship",
+            "thing": "University of Urbino \"Carlo Bo\"",
+            "description": "University scholarship at the Department of Pure and Applied Sciences (DiSPeA) in collaboration with the company Bax S.R.L and presided over by Prof. Lattanzi Emanuele entitled: \"Design and development of technological platforms in the field of home automation\"",
+            "location": "Urbino, Italy"
+        },
+        {
+            "date": [
+                "2018"
+            ],
+            "title": "In company internship",
+            "thing": "Robert Bosch S.p.a",
+            "location": "Milan, Italy",
+            "description": "Support in the development of an industry 4.0-themed quiz application for IOS(IPad) used by the TEC department during internal and external staff training events."
+        },
+        {
+            "date": [
+                "2018",
+                "2018"
+            ],
+            "title": "University internship",
+            "thing": "Mec System S.R.L.",
+            "location": "Urbania, Italy",
+            "description": "Development of a software for monitoring the working hours of employees and the progress of orders consisting of a web interface and an API Rest Node.js."
+        }
+    ],
+    "study": [
+        {
+            "date": [
+                "2020",
+                "2022"
+            ],
+            "title": "Master\"s degree in Applied Computer Science",
+            "subtitle": "University of Urbino \"Carlo Bo\"",
+            "location": "Urbino, Italy",
+            "description": "Thesis: \"Riconoscimento del lavaggio delle mani tramite smartwatch per ridurre la trasmissione da contatto di agenti patogeni\"\n Final grade: 110/110 e lode"
+        },
+        {
+            "date": [
+                "2015",
+                "2020"
+            ],
+            "title": "Bachelor\"s Degree in Applied Computer Science",
+            "subtitle": "University of Urbino \"Carlo Bo\"",
+            "location": "Urbino, Italy",
+            "description": "Thesis: Progettazione e Sviluppo di un\"applicazione per Analisi Stabilometrica tramite Smartphone \nFinal grade: 96/110"
+        },
+        {
+            "date": [
+                "2009",
+                "2015"
+            ],
+            "title": "Scientific high school diploma",
+            "subtitle": "Istituto Omnicomprensivo \"Montefeltro\"",
+            "location": "Sassocorvaro, Italy"
+        }
+    ],
+    "papers": [
+        {
+            "date": [
+                "2022"
+            ],
+            "title": "Automatic Unstructured Handwashing Recognition using Smartwatch to Reduce Contact Transmission of Pathogens",
+            "link": "https://ieeexplore.ieee.org/document/9852222",
+            "author": [
+                "Lattanzi",
+                "Calisti",
+                "Freschi"
+            ],
+            "journal": "IEEE Access, 10, 83111-83124",
+            "doi": "10.1109/ACCESS.2022.3197279",
+            "tags": [
+                "Machine learning",
+                "COVID-19",
+                "Wearable computers",
+                "Pathogens"
+            ]
+        },
+        {
+            "date": [
+                "2022"
+            ],
+            "title": "Smart Box IoT",
+            "journal": "Zenodo",
+            "link": "https://zenodo.org/record/6036183#.Ygo7B-7MIlJ",
+            "doi": "10.5281/zenodo.6036183",
+            "author": [
+                "Calisti",
+                "Lattanzi"
+            ],
+            "tags": [
+                "Internet of Things",
+                "Machine Learning",
+                "Arduino",
+                "ESP8266",
+                "Anomaly Detection"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Copper VM",
+            "description": "Virtual Machine written in Golang",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/coppervm",
+                    "icon": "github"
+                }
+            ],
+            "tags": [
+                "Golang",
+                "Virtual Machine"
+            ],
+            "image": "copper.png"
+        },
+        {
+            "title": "TikTok Scraper Extension",
+            "description": "Google Chrome Extension to scrape content off of TikTok Videos",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/TikTokScraperExtension",
+                    "icon": "github"
+                }
+            ],
+            "tags": [
+                "Chrome Extension"
+            ],
+            "image": "tiktok.png"
+        },
+        {
+            "title": "TS",
+            "description": "Tuple space implemented in Erlang",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/ADCC-Project",
+                    "icon": "github"
+                }
+            ],
+            "tags": [
+                "Erlang"
+            ]
+        },
+        {
+            "title": "iirj dart",
+            "description": "An IIR filter library written in Dart.",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/iirjdart",
+                    "icon": "github"
+                },
+                {
+                    "link": "https://pub.dev/packages/iirjdart",
+                    "icon": "globe"
+                }
+            ],
+            "tags": [
+                "Dart",
+                "IIR filter"
+            ]
+        },
+        {
+            "title": "Balance",
+            "description": "Flutter application for measure your posture!",
+            "links": [
+                {
+                    "link": "https://play.google.com/store/apps/details?id=srl.digit.balance",
+                    "icon": "play"
+                },
+                {
+                    "link": "https://www.balancemobile.it",
+                    "icon": "globe"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android"
+            ],
+            "image": "balance.webp"
+        },
+        {
+            "title": "Tasky",
+            "description": "Multi-platform app for managing projects in the workplace",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/ASPDM-Project",
+                    "icon": "github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android"
+            ],
+            "image": "tasky.png"
+        },
+        {
+            "title": "Petify",
+            "description": "Mobile app to help people find their missing pets",
+            "links": [
+                {
+                    "link": "https://play.google.com/store/apps/details?id=com.supercaly.petify",
+                    "icon": "play"
+                }
+            ],
+            "tags": [
+                "Android"
+            ],
+            "image": "petify.webp"
+        }
+    ],
+    "mail": "l.calisti96@gmail.com",
+    "phone": "(+39) 331 9018150"
+}

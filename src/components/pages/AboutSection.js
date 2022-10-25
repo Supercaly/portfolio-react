@@ -1,58 +1,39 @@
 import React from "react";
-import './AboutSection.css';
-
+import styles from './AboutSection.module.css';
 import TitleBar from "../widgets/TitleBar";
 import Title from "../widgets/Title";
 import Pill from "../widgets/Pill";
+import image from "../../asset/about_img.JPG"
+import data from "../../data.json";
 
 function AboutSection(props) {
-    return (<section>
-        <div>
-            <div className='about-section-div'>
-                <div className='about-avatar-box'>
-                    <div className='about-avatar-in'>
-                        <div className='about-avatar'></div>
+    return (<section className={styles.section}>
+        <div className={styles.outer}>
+            <div className={[styles.avatarOut, styles.leftAvatar].join(' ')}>
+                <div className={styles.avatarIn}>
+                    <img className={styles.avatar} src={image} alt="avatar"/>
+                </div>
+            </div>
+            <div className={styles.content}>
+                <TitleBar number='1' title='About Me' />
+                <div className={[styles.avatarOut, styles.topAvatar].join(' ')}>
+                    <div className={styles.avatarIn}>
+                        <img className={styles.avatar} src={image} alt="avatar" />
                     </div>
                 </div>
-                <div>
-                    <TitleBar number='1' title='About Me' />
-                    <p className='about-text'>Hello, my name is Lorenzo and I’m a Developer and Computer Science student based in Monte Cerignone (PU), a little town in the center of Italy.
-
-                        I’ve got a master's degree in Applied Computer Science from University of Urbino “Carlo Bo”.
-
-                        When I’m not working on some project I’m probably watching a TV series, an anime or I’m riding my MTB bike.</p>
-                    <div>
-                        <Title text='Programming' />
-                        <div className='pill-list'>
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                        </div>
-                        <Title text='OS' />
-                        <div className='pill-list'>
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                            <Pill text='ciao' />
-                        </div>
-                        <Title text='Art' />
-                        <div className='pill-list'>
-                            <Pill text='ciao' />
-                            <Pill text='Embedded' />
-                            <Pill text='ciao' />
-                        </div>
+                <p className={styles.description}>{data.about_me}</p>
+                <div className={styles.skills}>
+                    <Title text='Programming' />
+                    <div className={styles.pills}>
+                        {data.skills.programming.map(e => <Pill text={e} />)}
+                    </div>
+                    <Title text='OS' />
+                    <div className={styles.pills}>
+                        {data.skills.os.map(e => <Pill text={e} />)}
+                    </div>
+                    <Title text='Art' />
+                    <div className={styles.pills}>
+                        {data.skills.art.map(e => <Pill text={e} />)}
                     </div>
                 </div>
             </div>

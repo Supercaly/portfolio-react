@@ -22,10 +22,15 @@ function Card(props) {
         </div>;
     }
 
+    const imgStyles = [styles.imageDiv]
+    if (props.image === undefined) {
+        imgStyles.push(styles.hideImage)
+    }
+
     return (
         <div className={styles.container}>
-            <div className={styles.imageDiv}>
-                <img className={styles.image} src="https://source.unsplash.com/random/500x500h" alt='' />
+            <div className={imgStyles.join(' ')}>
+                <img className={styles.image} src={props.image} alt='' />
             </div>
             <div className={styles.content}>
                 <h4 className={styles.title}>{props.title}</h4>
