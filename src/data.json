@@ -102,13 +102,22 @@
     "study": [
         {
             "date": [
+                "2022"
+            ],
+            "title": "Ph. D in Research Methods in Science and Technology",
+            "subtitle": "University of Urbino \"Carlo Bo\"",
+            "location": "Urbino, Italy",
+            "description": "Module: Formal Models, Data Analysis and Scientific Computing"
+        },
+        {
+            "date": [
                 "2020",
                 "2022"
             ],
-            "title": "Master\"s degree in Applied Computer Science",
+            "title": "Master's degree in Applied Computer Science",
             "subtitle": "University of Urbino \"Carlo Bo\"",
             "location": "Urbino, Italy",
-            "description": "Thesis: \"Riconoscimento del lavaggio delle mani tramite smartwatch per ridurre la trasmissione da contatto di agenti patogeni\"\n Final grade: 110/110 e lode"
+            "description": "Thesis: \"Riconoscimento del lavaggio delle mani tramite smartwatch per ridurre la trasmissione da contatto di agenti patogeni\"\nFinal grade: 110/110 e lode"
         },
         {
             "date": [
@@ -118,7 +127,7 @@
             "title": "Bachelor\"s Degree in Applied Computer Science",
             "subtitle": "University of Urbino \"Carlo Bo\"",
             "location": "Urbino, Italy",
-            "description": "Thesis: Progettazione e Sviluppo di un\"applicazione per Analisi Stabilometrica tramite Smartphone \nFinal grade: 96/110"
+            "description": "Thesis: \"Progettazione e Sviluppo di un'applicazione per Analisi Stabilometrica tramite Smartphone\"\nFinal grade: 96/110"
         },
         {
             "date": [
@@ -173,6 +182,21 @@
         }
     ],
     "projects": [
+        {
+            "title": "Hand Monitor",
+            "description": "Android Wear application to monitor the user's hand-washing and hand-rubbing activities",
+            "links": [
+                {
+                    "link": "https://github.com/Supercaly/handmonitor",
+                    "icon": "github"
+                }
+            ],
+            "tags": [
+                "Android",
+                "Kotlin",
+                "Wear OS"
+            ]
+        },
         {
             "title": "Copper VM",
             "description": "Virtual Machine written in Golang",
