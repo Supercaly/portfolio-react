@@ -28,6 +28,10 @@
     border-bottom-left-radius: 10px;
 }
 
+.hideImage + .content {
+    width: auto;
+}
+
 .content {
     width: 50%;
     display: flex;
