@@ -2,14 +2,14 @@ import React from "react";
 import styles from './WorkSection.module.css';
 import ListItem from "../widgets/ListItem";
 import TitleBar from "../widgets/TitleBar";
-import data from "../../data.json";
+import works from "../../config/works.json";
 
 function WorkSection(props) {
     return (<section>
         <div className={styles.content}>
-            <TitleBar number='2' title="Where I've worked" />
+            <TitleBar number='3' title="Where I've worked" />
             <div className={styles.list}>
-                {data.work.map(e => <ListItem date={e.date}
+                {works.map(e => <ListItem date={e.date}
                     title={e.title}
                     subtitle={e.thing}
                     description={e.description}

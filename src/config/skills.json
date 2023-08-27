@@ -1,0 +1,35 @@
+{
+    "programming": [
+        "C/C++",
+        "Python",
+        "Go (Golang)",
+        "Haskell",
+        "Erlang",
+        "Matlab",
+        "IOS Development (Swift)",
+        "Web Development (HTML, CSS, JavaScript)",
+        "React",
+        "Flutter (Dart)",
+        "Android Development (Kotlin, Java)",
+        "NodeJS",
+        "Internet of Things (IoT)",
+        "Machine Learning",
+        "SQL/NoSQL",
+        "LaTex"
+    ],
+    "os": [
+        "Linux",
+        "MacOs",
+        "Windows",
+        "Android",
+        "IOS",
+        "Docker",
+        "Embedded Devices"
+    ],
+    "art": [
+        "Photoshop",
+        "Illustrator",
+        "Inkspace",
+        "Figma"
+    ]
+}

@@ -16,8 +16,8 @@ class App extends React.Component {
         return <main>
             <HomeSection />
             <AboutSection />
-            <WorkSection />
             <SchoolSection />
+            <WorkSection />
             <PapersSection />
             <ProjectsSection />
             <CVSection />

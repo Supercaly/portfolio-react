@@ -1,0 +1,34 @@
+{
+    "short": [
+        {
+            "link": "https://www.facebook.com/l.calisti/",
+            "icon": "facebook"
+        },
+        {
+            "link": "https://www.instagram.com/lorenzo_calisti/",
+            "icon": "instagram"
+        },
+        {
+            "link": "https://twitter.com/lorenzocalisti",
+            "icon": "twitter"
+        },
+        {
+            "link": "https://www.linkedin.com/in/lorenzo-calisti96/",
+            "icon": "linkedin"
+        },
+        {
+            "link": "https://github.com/Supercaly/",
+            "icon": "github"
+        }
+    ],
+    "extra": [
+        {
+            "link": "tel: +393319018150",
+            "icon": "phone"
+        },
+        {
+            "link": "mailto:l.calisti96@gmail.com",
+            "icon": "mail"
+        }
+    ]
+}

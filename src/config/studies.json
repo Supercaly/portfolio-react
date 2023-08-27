@@ -1,0 +1,41 @@
+[
+    {
+        "date": [
+            "2022",
+            "present"
+        ],
+        "title": "Ph. D in Research Methods in Science and Technology",
+        "subtitle": "University of Urbino \"Carlo Bo\"",
+        "location": "Urbino, Italy",
+        "description": "Module: Formal Models, Data Analysis and Scientific Computing"
+    },
+    {
+        "date": [
+            "2020",
+            "2022"
+        ],
+        "title": "Master's degree in Applied Computer Science",
+        "subtitle": "University of Urbino \"Carlo Bo\"",
+        "location": "Urbino, Italy",
+        "description": "Thesis: \"Riconoscimento del lavaggio delle mani tramite smartwatch per ridurre la trasmissione da contatto di agenti patogeni\"\nFinal grade: 110/110 e lode"
+    },
+    {
+        "date": [
+            "2015",
+            "2020"
+        ],
+        "title": "Bachelor\"s Degree in Applied Computer Science",
+        "subtitle": "University of Urbino \"Carlo Bo\"",
+        "location": "Urbino, Italy",
+        "description": "Thesis: \"Progettazione e Sviluppo di un'applicazione per Analisi Stabilometrica tramite Smartphone\"\nFinal grade: 96/110"
+    },
+    {
+        "date": [
+            "2009",
+            "2015"
+        ],
+        "title": "Scientific high school diploma",
+        "subtitle": "Istituto Omnicomprensivo \"Montefeltro\"",
+        "location": "Sassocorvaro, Italy"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "date": [
+            "2020",
+            "2021"
+        ],
+        "title": "University scholarship",
+        "thing": "University of Urbino \"Carlo Bo\"",
+        "description": "University scholarship at the Department of Pure and Applied Sciences (DiSPeA) in collaboration with the company Bax S.R.L and presided over by Prof. Lattanzi Emanuele entitled: \"Design and development of technological platforms in the field of home automation\"",
+        "location": "Urbino, Italy"
+    },
+    {
+        "date": [
+            "2018"
+        ],
+        "title": "In company internship",
+        "thing": "Robert Bosch S.p.a",
+        "location": "Milan, Italy",
+        "description": "Support in the development of an industry 4.0-themed quiz application for IOS(IPad) used by the TEC department during internal and external staff training events."
+    },
+    {
+        "date": [
+            "2018",
+            "2018"
+        ],
+        "title": "University internship",
+        "thing": "Mec System S.R.L.",
+        "location": "Urbania, Italy",
+        "description": "Development of a software for monitoring the working hours of employees and the progress of orders consisting of a web interface and an API Rest Node.js."
+    }
+]

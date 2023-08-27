@@ -2,14 +2,14 @@ import React from "react";
 import styles from './PapersSection.module.css';
 import PaperItem from "../widgets/PaperItem";
 import TitleBar from "../widgets/TitleBar";
-import data from "../../data.json";
+import papers from "../../config/papers.json";
 
 function PapersSection(props) {
     return (<section>
         <div className={styles.content}>
             <TitleBar number='4' title="Publications" />
             <div className={styles.list}>
-                {data.papers.map(e => <PaperItem
+                {papers.map(e => <PaperItem
                     authors={e.author}
                     title={e.title}
                     journal={e.journal}

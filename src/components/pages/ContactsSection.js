@@ -3,7 +3,7 @@ import styles from './ContactsSection.module.css';
 import TitleBar from "../widgets/TitleBar";
 import Title from "../widgets/Title";
 import Socials from "../widgets/Socials";
-import data from '../../data.json';
+import info from '../../config/info.json';
 
 function ContactsSection(props) {
     return (<section>
@@ -15,19 +15,19 @@ function ContactsSection(props) {
                     <div className={styles.contactsItem}>
                         <Title text='Email' />
                         <div className={styles.padding}>
-                            <h6 className={styles.text}>{data.mail}</h6>
+                            <h6 className={styles.text}>{info.mail}</h6>
                         </div>
                     </div>
                     <div className={styles.contactsItem}>
                         <Title text='Phone' />
                         <div className={styles.padding}>
-                            <h6 className={styles.text}>{data.phone}</h6>
+                            <h6 className={styles.text}>{info.phone}</h6>
                         </div>
                     </div>
                     <div className={styles.contactsItem}>
                         <Title text='Socials' />
                         <div className={styles.padding}>
-                            <Socials orientation='horizontal' short social={data.social}/>
+                            <Socials orientation='horizontal' short/>
                         </div>
                     </div>
                 </div>
