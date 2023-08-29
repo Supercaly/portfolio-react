@@ -1,5 +1,35 @@
 [
     {
+        "title": "Home Server",
+        "description": "Repository for my RaspberryPI Home Server",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/homeserver",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Docker",
+            "Linux",
+            "Bash",
+            "Python"
+        ]
+    },
+    {
+        "title": "IoT Uniurb",
+        "description": "Firmware for the IoT UniUrb project",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/iot_uniurb",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "ESP32",
+            "C/C++"
+        ]
+    },
+    {
         "title": "Hand Monitor",
         "description": "Android Wear application to monitor the user's hand-washing and hand-rubbing activities",
         "links": [
