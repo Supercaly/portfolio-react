@@ -1,10 +1,10 @@
 import React from "react";
-import styles from './CVSection.module.css';
-import TitleBar from "../widgets/TitleBar";
+import styles from './Curriculum.module.css';
+import TitleBar from "./TitleBar";
 import info from "../../config/info.json";
 
-function CVSection(props) {
-    return (<section>
+function Curriculum(props) {
+    return (
         <div className={styles.outer}>
             <TitleBar number='6' title="Curriculum" />
             <div className={styles.content}>
@@ -12,11 +12,11 @@ function CVSection(props) {
                 <button className={styles.ripple} onClick={openCV}>Download</button>
             </div>
         </div>
-    </section>);
+    );
 }
 
 function openCV() {
     window.open(info.cv_path);
 }
 
-export default CVSection;
+export default Curriculum;

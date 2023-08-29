@@ -1,12 +1,12 @@
 import React from "react";
-import styles from './ContactsSection.module.css';
-import TitleBar from "../widgets/TitleBar";
-import Title from "../widgets/Title";
-import Socials from "../widgets/Socials";
+import styles from './Contacts.module.css';
+import TitleBar from "./TitleBar";
+import Title from "./Title";
+import Socials from "./Socials";
 import info from '../../config/info.json';
 
 function ContactsSection(props) {
-    return (<section>
+    return (<div>
         <div className={styles.content}>
             <TitleBar number='7' title="Contact Me" />
             <div className={styles.contentBox}>
@@ -34,7 +34,7 @@ function ContactsSection(props) {
 
             </div>
         </div>
-    </section>);
+    </div>);
 }
 
 export default ContactsSection;
