@@ -4,7 +4,8 @@ import TitleBar from "../widgets/TitleBar";
 import Title from "../widgets/Title";
 import Pill from "../widgets/Pill";
 import image from "../../asset/about_img.JPG"
-import data from "../../data.json";
+import info from "../../config/info.json";
+import skills from "../../config/skills.json";
 
 function AboutSection(props) {
     return (<section className={styles.section}>
@@ -21,19 +22,19 @@ function AboutSection(props) {
                         <img className={styles.avatar} src={image} alt="avatar" />
                     </div>
                 </div>
-                <p className={styles.description}>{data.about_me}</p>
+                <p className={styles.description}>{info.about_me}</p>
                 <div className={styles.skills}>
                     <Title text='Programming' />
                     <div className={styles.pills}>
-                        {data.skills.programming.map(e => <Pill text={e} />)}
+                        {skills.programming.map(e => <Pill text={e} />)}
                     </div>
                     <Title text='OS' />
                     <div className={styles.pills}>
-                        {data.skills.os.map(e => <Pill text={e} />)}
+                        {skills.os.map(e => <Pill text={e} />)}
                     </div>
                     <Title text='Art' />
                     <div className={styles.pills}>
-                        {data.skills.art.map(e => <Pill text={e} />)}
+                        {skills.art.map(e => <Pill text={e} />)}
                     </div>
                 </div>
             </div>

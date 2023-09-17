@@ -20,6 +20,7 @@
 
 .title {
     font-size: 25px;
+    line-height: 28px;
     margin: 0px;
     font-weight: 500;
     color: var(--color-text);
@@ -56,6 +57,10 @@
         flex-direction: column;
         gap: 20px;
         padding: 16px;
+    }
+
+    .content {
+        gap: 5px;
     }
 
     .title {

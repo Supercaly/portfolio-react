@@ -8,9 +8,9 @@ function PaperItem(props) {
         <div className={styles.content}>
             <h4 className={styles.title}>{props.title}</h4>
             <h6 className={styles.description}>{formatList(props.authors, ', ')}</h6>
+            <h6 className={styles.description2}>{props.date}</h6>
             <h6 className={styles.description2}>{props.journal}</h6>
             <h6 className={styles.description2}>{props.doi}</h6>
-            <h6 className={styles.description2}>{props.date}</h6>
             <h6 className={styles.description2}>{formatList(props.tags, ', ')}</h6>
         </div>
     </div>);

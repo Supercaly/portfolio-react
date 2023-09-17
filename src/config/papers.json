@@ -1,0 +1,62 @@
+[
+    {
+        "date": [
+            "2023"
+        ],
+        "title": "Energy-aware Tiny Machine Learning for Sensor-based Hand-washing Recognition",
+        "link": "https://dl.acm.org/doi/10.1145/3589883.3589886",
+        "author": [
+            "Lattanzi",
+            "Calisti"
+        ],
+        "journal": "Association for Computing Machinery/ICMLT 23",
+        "doi": "10.1145/3589883.3589886",
+        "tags": [
+            "Tiny Machine Learning", 
+            "Human Activity Recognition", 
+            "Support Vector Machine", 
+            "Energy aware", 
+            "Long Short-Term Memory networks"
+        ]
+    },
+    {
+        "date": [
+            "2022"
+        ],
+        "title": "Automatic Unstructured Handwashing Recognition using Smartwatch to Reduce Contact Transmission of Pathogens",
+        "link": "https://ieeexplore.ieee.org/document/9852222",
+        "author": [
+            "Lattanzi",
+            "Calisti",
+            "Freschi"
+        ],
+        "journal": "IEEE Access, 10, 83111-83124",
+        "doi": "10.1109/ACCESS.2022.3197279",
+        "tags": [
+            "Machine learning",
+            "COVID-19",
+            "Wearable computers",
+            "Pathogens"
+        ]
+    },
+    {
+        "date": [
+            "2022"
+        ],
+        "title": "Smart Box IoT",
+        "journal": "Zenodo",
+        "link": "https://zenodo.org/record/6036183#.Ygo7B-7MIlJ",
+        "doi": "10.5281/zenodo.6036183",
+        "author": [
+            "Calisti",
+            "Lattanzi"
+        ],
+        "tags": [
+            "Internet of Things",
+            "Machine Learning",
+            "Arduino",
+            "ESP8266",
+            "Anomaly Detection"
+        ]
+    }
+]

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from './Socials.module.css';
 import Icon from "./Icon";
+import socials from "../../config/socials.json";
 
 function Socials(props) {
-    let links = props.social.short;
+    let links = socials.short;
     
     if (!props.short) {
-        links = links.concat(props.social.extra);
+        links = links.concat(socials.extra);
     }
     
     const htmlLinks = links.map(link => {

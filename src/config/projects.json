@@ -1,0 +1,155 @@
+[
+    {
+        "title": "Home Server",
+        "description": "Repository for my RaspberryPI Home Server",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/homeserver",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Docker",
+            "Linux",
+            "Bash",
+            "Python"
+        ]
+    },
+    {
+        "title": "IoT Uniurb",
+        "description": "Firmware for the IoT UniUrb project",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/iot_uniurb",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "ESP32",
+            "C/C++"
+        ]
+    },
+    {
+        "title": "Hand Monitor",
+        "description": "Android Wear application to monitor the user's hand-washing and hand-rubbing activities",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/handmonitor",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Android",
+            "Kotlin",
+            "Wear OS"
+        ]
+    },
+    {
+        "title": "Copper VM",
+        "description": "Virtual Machine written in Golang",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/coppervm",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Golang",
+            "Virtual Machine"
+        ],
+        "image": "copper.png"
+    },
+    {
+        "title": "TikTok Scraper Extension",
+        "description": "Google Chrome Extension to scrape content off of TikTok Videos",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/TikTokScraperExtension",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Chrome Extension"
+        ],
+        "image": "tiktok.png"
+    },
+    {
+        "title": "TS",
+        "description": "Tuple space implemented in Erlang",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/ADCC-Project",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Erlang"
+        ]
+    },
+    {
+        "title": "iirj dart",
+        "description": "An IIR filter library written in Dart.",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/iirjdart",
+                "icon": "github"
+            },
+            {
+                "link": "https://pub.dev/packages/iirjdart",
+                "icon": "globe"
+            }
+        ],
+        "tags": [
+            "Dart",
+            "IIR filter"
+        ]
+    },
+    {
+        "title": "Balance",
+        "description": "Flutter application for measure your posture!",
+        "links": [
+            {
+                "link": "https://play.google.com/store/apps/details?id=srl.digit.balance",
+                "icon": "play"
+            },
+            {
+                "link": "https://www.balancemobile.it",
+                "icon": "globe"
+            }
+        ],
+        "tags": [
+            "Flutter",
+            "Android"
+        ],
+        "image": "balance.webp"
+    },
+    {
+        "title": "Tasky",
+        "description": "Multi-platform app for managing projects in the workplace",
+        "links": [
+            {
+                "link": "https://github.com/Supercaly/ASPDM-Project",
+                "icon": "github"
+            }
+        ],
+        "tags": [
+            "Flutter",
+            "Android"
+        ],
+        "image": "tasky.png"
+    },
+    {
+        "title": "Petify",
+        "description": "Mobile app to help people find their missing pets",
+        "links": [
+            {
+                "link": "https://play.google.com/store/apps/details?id=com.supercaly.petify",
+                "icon": "play"
+            }
+        ],
+        "tags": [
+            "Android"
+        ],
+        "image": "petify.webp"
+    }
+]

@@ -8,20 +8,18 @@ import SchoolSection from './pages/SchoolSection';
 import PapersSection from './pages/PapersSection';
 import ProjectsSection from './pages/ProjectsSection';
 import FooterSection from './pages/FooterSection';
-import CVSection from './pages/CVSection';
-import ContactsSection from './pages/ContactsSection';
+import MoreInfoSection from './pages/MoreInfoSection';
 
 class App extends React.Component {
     render() {
         return <main>
             <HomeSection />
             <AboutSection />
-            <WorkSection />
             <SchoolSection />
+            <WorkSection />
             <PapersSection />
             <ProjectsSection />
-            <CVSection />
-            <ContactsSection />
+            <MoreInfoSection />
             <FooterSection />
         </main>;
     }
