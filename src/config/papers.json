@@ -3,19 +3,73 @@
         "date": [
             "2023"
         ],
+        "title": "SensorLib: an Energy-efficient Sensor-collection Library for Wear OS",
+        "link": "",
+        "author": [
+            "L. Calisti",
+            "E. Lattanzi"
+        ],
+        "journal": "Being printed - ESSE 2023",
+        "doi": "",
+        "tags": []
+    },
+    {
+        "date": [
+            "2023"
+        ],
+        "title": "An IoT Virtual Sensor for Indoor Health Risk Assessment",
+        "link": "",
+        "author": [
+            "L. Calisti",
+            "P. Capellacci",
+            "G. Schiavano",
+            "A. Conti",
+            "G. Amagliani",
+            "C. Papalini",
+            "G. Brandi",
+            "E. Lattanzi"
+        ],
+        "journal": "Being printed - AC 2023",
+        "doi": "",
+        "tags": []
+    },
+    {
+        "date": [
+            "2023"
+        ],
+        "title": "Lightweight accurate trigger to reduce power consumption in sensor-based continuous human activity recognition",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1574119223001062",
+        "author": [
+            "E. Lattanzi",
+            "L. Calisti",
+            "P. Capellacci"
+        ],
+        "journal": "Pervasive and Mobile Computing - Elsevier",
+        "doi": "10.1016/j.pmcj.2023.101848",
+        "tags": [
+            "Power-aware machine learning",
+            "Ubiquitous motion tracking",
+            "Human activity recognition",
+            "Wearable devices"
+        ]
+    },
+    {
+        "date": [
+            "2023"
+        ],
         "title": "Energy-aware Tiny Machine Learning for Sensor-based Hand-washing Recognition",
         "link": "https://dl.acm.org/doi/10.1145/3589883.3589886",
         "author": [
-            "Lattanzi",
-            "Calisti"
+            "E. Lattanzi",
+            "L. Calisti"
         ],
         "journal": "Association for Computing Machinery/ICMLT 23",
         "doi": "10.1145/3589883.3589886",
         "tags": [
-            "Tiny Machine Learning", 
-            "Human Activity Recognition", 
-            "Support Vector Machine", 
-            "Energy aware", 
+            "Tiny Machine Learning",
+            "Human Activity Recognition",
+            "Support Vector Machine",
+            "Energy aware",
             "Long Short-Term Memory networks"
         ]
     },
@@ -26,11 +80,11 @@
         "title": "Automatic Unstructured Handwashing Recognition using Smartwatch to Reduce Contact Transmission of Pathogens",
         "link": "https://ieeexplore.ieee.org/document/9852222",
         "author": [
-            "Lattanzi",
-            "Calisti",
-            "Freschi"
+            "E. Lattanzi",
+            "L. Calisti",
+            "V. Freschi"
         ],
-        "journal": "IEEE Access, 10, 83111-83124",
+        "journal": "IEEE Access",
         "doi": "10.1109/ACCESS.2022.3197279",
         "tags": [
             "Machine learning",
@@ -44,12 +98,12 @@
             "2022"
         ],
         "title": "Smart Box IoT",
-        "journal": "Zenodo",
         "link": "https://zenodo.org/record/6036183#.Ygo7B-7MIlJ",
+        "journal": "Zenodo",
         "doi": "10.5281/zenodo.6036183",
         "author": [
-            "Calisti",
-            "Lattanzi"
+            "L. Calisti",
+            "E. Lattanzi"
         ],
         "tags": [
             "Internet of Things",
