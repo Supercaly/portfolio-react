@@ -3,6 +3,23 @@
         "date": [
             "2023"
         ],
+        "title": "A Study on the energy-efficiency of the Object Tracking Algorithms in Edge Devices",
+        "link": "",
+        "author": [
+            "G. Di Fabrizio",
+            "L. Calisti",
+            "C. Contoli",
+            "N. Kania",
+            "E. Lattanzi"
+        ],
+        "journal": "Being printed - INSPIRE Workshop 2023",
+        "doi": "",
+        "tags": []
+    },
+    {
+        "date": [
+            "2023"
+        ],
         "title": "SensorLib: an Energy-efficient Sensor-collection Library for Wear OS",
         "link": "",
         "author": [
@@ -10,6 +27,25 @@
             "E. Lattanzi"
         ],
         "journal": "Being printed - ESSE 2023",
+        "doi": "",
+        "tags": []
+    },
+     {
+        "date": [
+            "2023"
+        ],
+        "title": "Health Risk Assessment in Public Buildings through Internet of Things (IoT) Technology",
+        "link": "",
+        "author": [
+            "S. G. Fiorella", 
+            "C. Asja", 
+            "A. Giulia", 
+            "C. Lorenzo", 
+            "C. Papalini", 
+            "G. Brandi", 
+            "E. Lattanzi"
+        ],
+        "journal": "Being printed - SItI 2023",
         "doi": "",
         "tags": []
     },
